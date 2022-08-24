@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scholar.ScholarLoginController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="249.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="389.0" fitWidth="234.0" layoutX="7.0" layoutY="6.0">
+               <image>
+                  <Image url="@../images/loginImage.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="292.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="usernameTxt" layoutX="154.0" layoutY="130.0" prefHeight="25.0" prefWidth="179.0" promptText="username" />
+            <PasswordField fx:id="passwordTxt" layoutX="154.0" layoutY="188.0" prefHeight="25.0" prefWidth="179.0" promptText="password" />
+            <Label layoutX="21.0" layoutY="131.0" prefHeight="23.0" prefWidth="112.0" text="Username" textFill="#ddda0c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="190.0" prefHeight="22.0" prefWidth="112.0" text="Password" textFill="#8e972c">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="loginbtn" alignment="CENTER" layoutX="122.0" layoutY="283.0" mnemonicParsing="false" onAction="#logInbtnOnAction" prefHeight="27.0" prefWidth="79.0" text="LogIn" />
+            <Button fx:id="exitbtn" alignment="CENTER" layoutX="122.0" layoutY="334.0" mnemonicParsing="false" onAction="#exitbtnOnAction" prefHeight="27.0" prefWidth="79.0" text="Exit" />
+            <Label fx:id="logintxt" alignment="CENTER" layoutX="69.0" layoutY="238.0" prefHeight="29.0" prefWidth="210.0" textFill="#ebe8e8">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

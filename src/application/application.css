@@ -1,0 +1,66 @@
+.root{
+	-fx-background-color:#4C3A51;
+	-fx-font-size: 15;
+	-fx-font-family: "Palatino";
+	-fx-alignment: center;
+	-fx-text-fill: E7AB79;
+}
+
+.label{
+	-fx-font-family: "Palatino";
+	-fx-text-fill: #E7AB79;
+}
+
+.textfield{
+	-fx-background-color:#B25068;
+	-fx-text-fill: #E7AB79;
+}
+
+.button{
+	-fx-background-color:#B25068;
+	-fx-text-fill: #E7AB79;
+	-fx-font-family: "Palatino";
+}
+
+.hbox{
+	-fx-background-color:#4C3A51;	
+	-fx-font-family: "Palatino";
+}
+
+.vbox{
+	-fx-background-color:#4C3A51;
+	-fx-font-family: "Palatino";
+}
+
+.table-view{
+	-fx-background-color:#4C3A51;
+	-fx-font-family: "Palatino";
+	-fx-text-fill: #E7AB79;
+}
+
+.table-row-cell{
+    -fx-background-color: #774360; 
+    -fx-font-family: "Palatino";
+    -fx-text-fill: #E7AB79;
+}
+
+.table-view .column-header{
+    -fx-background-color: #4C3A51;
+    -fx-font-family: "Palatino";
+    -fx-text-fill: #E7AB79;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: #B25068;
+    
+}
+
+.table-view .scroll-bar{
+	-fx-background-color: #E7AB79;
+}
+

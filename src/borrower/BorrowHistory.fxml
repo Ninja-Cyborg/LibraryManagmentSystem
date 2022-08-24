@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="borrower.BorrowerController">
+   <children>
+      <TableView fx:id="historyTable" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="borrowId" prefWidth="79.0" text="Borrow ID" />
+          <TableColumn fx:id="bookId" prefWidth="139.0" text="Book Id" />
+            <TableColumn fx:id="borrowDate" prefWidth="131.0" text="borrowDate" />
+            <TableColumn fx:id="returnDate" prefWidth="118.0" text="returnDate" />
+            <TableColumn fx:id="fine" prefWidth="132.0" text="Fine" />
+        </columns>
+      </TableView>
+      <HBox alignment="CENTER" layoutX="141.0" layoutY="348.0" prefHeight="56.0" prefWidth="600.0" spacing="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="quit" mnemonicParsing="false" onAction="#quitbtnOnAction" prefHeight="32.0" prefWidth="147.0" text="Quit" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
