@@ -1,6 +1,6 @@
 # LibraryManagmentSystem
 
-# Desciption: 
+# Description: 
 ### The project initiated to provide ease in managment of librarians and borrower's accounts. User's are provided permissions as according to their roles.
 
 # Goals
@@ -9,7 +9,7 @@
 - Delivering windows native application that allows to create, list, delete and update user accounts based on access
 - Leverages JDBC driver to perform complex queries from backend on data consisting JOINS and sub-queries
 
-# Tools used
+# Tools
 ## BackEnd: 
 - The backend Logic is written in Java.
 - Follow Model-View-Controller (MVC) pattern
